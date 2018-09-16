@@ -25,6 +25,7 @@ public class GetGuttStatusResource {
 		return getAll();
 	}
 	
+	/*
 	@GET
 	@Produces({ MediaType.APPLICATION_JSON})
 	public String getByName(String name) {
@@ -35,6 +36,6 @@ public class GetGuttStatusResource {
 	@Produces({ MediaType.APPLICATION_JSON})
 	public String getAllForName(String name) {
 		return getAllForName(name); 					 
-	}	
+	}	*/
 
 }
