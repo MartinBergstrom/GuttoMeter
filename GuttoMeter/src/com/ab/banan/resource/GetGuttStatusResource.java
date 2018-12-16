@@ -21,8 +21,8 @@ public class GetGuttStatusResource {
 			
 	@GET
 	@Produces({ MediaType.APPLICATION_JSON})
-	public List getAll() {
-		return getAll();
+	public String getAll() {
+		return "hi";
 	}
 	
 	/*
